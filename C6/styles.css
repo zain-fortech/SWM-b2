@@ -1,0 +1,29 @@
+/* h2 {
+  color: green;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-decoration: underline;
+}
+
+#first-para {
+  color: rgb(45, 156, 119);
+  text-decoration: none !important;
+}
+
+#first-para > b {
+  color: brown;
+  border: 1px solid black;
+}
+
+.important-heading {
+  color: green;
+}
+
+.important-heading ~ p {
+  border: 1px solid black;
+}

@@ -1,0 +1,11 @@
+Font Families
+- Sarif
+- San Sarif
+- Monospace
+- Cursive
+
+Font size units
+- px
+- %
+- em
+- rem

@@ -1,0 +1,7 @@
+Color
+- By name
+- RGB
+- RGBA
+- Hex
+
+Red, Green and Blue

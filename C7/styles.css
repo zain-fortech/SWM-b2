@@ -1,0 +1,42 @@
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 8px;
+}
+
+h2 {
+  color: rgba(29, 39, 39, 0.7);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+p {
+  color: rgba(244, 246, 246, 0.7);
+  background-color: rgba(19, 20, 20, 0.7);
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: capitalize;
+  /* letter-spacing: 0.03em; */
+  word-spacing: 0.25rem;
+  text-align: justify;
+}
+
+/* p:first-letter {
+  font-size: 5rem;
+} */
+
+p:first-line {
+  font-size: 3rem;
+}
+
+a:visited {
+  color: rgb(152, 8, 8);
+}
+
+a:hover {
+  color: rgb(147, 111, 111);
+}
