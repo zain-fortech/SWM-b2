@@ -1,0 +1,107 @@
+body {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  border-style: 16px;
+  height: 100vh;
+}
+
+ul {
+  /* list-style-type: circle;
+  list-style-position: inside; */
+  /* list-style-image: url(); */
+  list-style: inside circle;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+
+table td {
+  border: 1px solid black;
+  font-size: 0.5rem;
+  padding: 3px 5px;
+  text-align: center;
+}
+
+.even {
+  background-color: rgb(205, 210, 210);
+}
+
+table td:hover {
+  background-color: rgb(172, 169, 164);
+  cursor: pointer;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 2rem;
+  min-height: 100%;
+}
+
+.container > div {
+  border: 1px solid black;
+  width: 100px;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.first {
+  position: static;
+  background-color: antiquewhite;
+}
+
+.second {
+  position: relative;
+  /* top: 10px; */
+  /* left: 10px; */
+
+  /* bottom: 10px; */
+  /* right: 10px; */
+  background-color: antiquewhite;
+  z-index: 1;
+}
+
+.third {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  background-color: chartreuse;
+
+  /* bottom: 10px; */
+  /* right: 10px; */
+  z-index: 2;
+}
+
+.fourth {
+  background-color: antiquewhite;
+
+  position: sticky;
+
+  top: 50px;
+}
+
+.btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+  width: 30px !important;
+  height: 10px !important;
+  padding: 0.2rem !important;
+
+  text-align: center !important;
+
+  font-size: 0.5rem;
+}
