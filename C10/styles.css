@@ -1,0 +1,38 @@
+body {
+  margin: 16px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row; /* Main axis */
+  flex-wrap: wrap;
+
+  /* gap: 10px; */
+  column-gap: 10px;
+  row-gap: 10px;
+
+  /*  justify-content: space-around;*/ /* Aligns on main axis */
+  /* align-items: center; */ /* Aligns on cross axis */
+}
+
+.item {
+  border: 1px solid black;
+  flex-basis: 200px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.item:nth-child(1) {
+  order: 3;
+}
+
+.item:nth-child(2) {
+  order: 1;
+}
+
+.item:nth-child(3) {
+  order: 2;
+
+  align-self: flex-end;
+}
