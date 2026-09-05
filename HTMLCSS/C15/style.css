@@ -1,0 +1,23 @@
+h1,
+h2,
+h3 {
+  font-family: "Caacupe One", sans-serif;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+}
+
+.video {
+  width: 50vw;
+}
